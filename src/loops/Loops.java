@@ -23,6 +23,9 @@ public class Loops {
             System.out.print("#\t");
             if (i % dimension == 0){
                 System.out.println();
+
+
+                System.out.println("smack");
             }
         }
 
