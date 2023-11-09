@@ -44,6 +44,12 @@ public class PoleCviceni {
             System.out.println(emptyArray[i]);
             System.out.println(emptyArray[emptyArray.length-1-i]);
             }
+        int[] randomNumbers = new int[10];
+        for (int i = 0; i < randomNumbers.length; i++) {
+            randomNumbers[i] = (int)(Math.random()*50+1);
+        }
+        System.out.println(Arrays.toString(randomNumbers));
+                
         }
     }
 
