@@ -14,6 +14,25 @@ public class Seperating {
         String yearOfRelease;
         // ukazka - split
         String [] splitSong = input.split(";");
+
+
+//
+//        String[] details = new String[3];
+//        int wordIdx = 0;
+//        String word = "";
+//        for (int i = 0; i < input.length(); i++) {
+//            if (input.charAt(i) == ';'){
+//                details[wordIdx] = word;
+//                wordIdx++;
+//                word = "";
+//            }
+//            else {
+//                word += (new Character(input.charAt(i)).toString());
+//
+//            }
+//        }
+
+
         System.out.println(Arrays.toString(splitSong));
         songName = splitSong[0];
         author = splitSong[1];

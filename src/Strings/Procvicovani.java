@@ -68,8 +68,10 @@ public class Procvicovani {
         //hello = hELlO budou stejne
         String first = "hello";
         String second = "hELlo";
+
         System.out.println("Jsou stejne? " + first.equals(second));
         System.out.println("Jsou stejne? " + first.equalsIgnoreCase(second));
+
         //Alternativni a zbytecne slozite
 
     }
