@@ -2,6 +2,7 @@ package loops;
 
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Random;
 
 public class SearchingArrays {
     public static void main(String[] args) {
@@ -11,6 +12,9 @@ public class SearchingArrays {
             arr1[i] = i+1 ;
         }
 
+        Random random = new Random();
+        int zmrd = random.nextInt(40)+1*(-1);
+        System.out.println(zmrd);
         int min = Integer.MAX_VALUE;
         for (int i = 0; i < arr.length; i++) {
             if(arr1[i] < min){

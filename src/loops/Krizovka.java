@@ -12,6 +12,7 @@ public class Krizovka {
         //za kazde uhadnuti +100 skore
         //na konci vypsat skore
 
+
         int [] toGuess = new int[6];
         int score = 0;
         Scanner sc = new Scanner(System.in);
