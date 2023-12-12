@@ -35,6 +35,15 @@ public class Priklady {
         }
         if (zdvoj == false) {
             System.out.println("Ne");
+
         }
+
+
+        // palindromy
+        String test = "oko";
+
+        StringBuilder sb = new StringBuilder(test);
+        sb.reverse().toString().equals(test);
+        System.out.println(sb);
     }
 }
