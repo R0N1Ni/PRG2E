@@ -1,4 +1,4 @@
-package Pole;
+package List;
 
 import java.util.ArrayList;
 import java.util.Scanner;

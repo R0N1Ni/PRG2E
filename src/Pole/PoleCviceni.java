@@ -1,4 +1,4 @@
-package loops;
+package Pole;
 
 import java.util.Arrays;
 

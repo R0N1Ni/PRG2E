@@ -1,4 +1,4 @@
-package loops;
+package Pole;
 
 public class Pole2 {
     public static void main(String[] args) {
