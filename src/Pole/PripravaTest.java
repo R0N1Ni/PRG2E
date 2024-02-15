@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class PripravaTest {
     public static void main(String[] args) {
 //        cv1();
-//        cv2();
+        cv2();
 //        cv3();
 //        cv4();
-cv5();
+//cv5();
     }
 
     public static void cv1() {
@@ -23,7 +23,7 @@ cv5();
         }
         System.out.println(arrayList);
 
-        System.out.println(arrayList.reversed());
+//        System.out.println(arrayList.reverse());
 
         for (int i = pole.length - 1; i >= 0; i--) {
             System.out.println(i + ".");
