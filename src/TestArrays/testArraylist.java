@@ -3,7 +3,7 @@ package TestArrays;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class cviceni1 {
+public class testArraylist {
     public static void main(String[] args) {
 //        cv1();
         cv2();
@@ -22,6 +22,7 @@ public class cviceni1 {
             int [] radek = body[i];
             for (int j = 0; j < body[i].length; j++) {
                 if (radek[j] >= 30 ) {
+
 
                 }
 
