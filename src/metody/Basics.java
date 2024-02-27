@@ -28,5 +28,20 @@ public class Basics {
     int result = a * b;
     return result;
     }
+    public static void printEven(int n ){
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 1){
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
 
+    public static boolean isEven (int number){
+        if (number % 2 == 0){
+            return true;
+        }else {
+            return false;
+        }
+    }
 }
