@@ -18,4 +18,10 @@ public class Recursion {
         }
         return Recursive(root, power - 1) * root;
     }
+    public static void Countdown (int n){
+        System.out.println(n);
+        if (n >1 ){
+            Countdown(n);
+        }
+    }
 }

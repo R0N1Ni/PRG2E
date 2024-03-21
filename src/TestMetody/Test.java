@@ -43,4 +43,6 @@ public class Test {
             return (cena * (vyska * sirka) *pocet) * sleva;
         }
     }
+
+
 }
