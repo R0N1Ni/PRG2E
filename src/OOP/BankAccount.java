@@ -1,4 +1,4 @@
-package Class;
+package OOP;
 
 public class BankAccount {
     long bid = 12346589451654L;
