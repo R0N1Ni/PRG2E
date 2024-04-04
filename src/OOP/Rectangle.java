@@ -6,11 +6,12 @@ public class Rectangle {
         return width * height;
     }
     boolean isSquare(){
-        if (width == height){
-            return true;
-        } else {
-            return false;
-        }
+//        if (width == height){
+//            return true;
+//        } else {
+//            return false;
+//        }
+        return width == height;
     }
 
 }
