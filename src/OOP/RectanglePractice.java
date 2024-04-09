@@ -7,5 +7,6 @@ public class RectanglePractice {
         abcd.height = 5;
         System.out.println("Obsah: " + abcd.getArea());
         System.out.println("Je to ctverec? " + abcd.isSquare());
+
     }
 }
