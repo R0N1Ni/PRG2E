@@ -2,7 +2,7 @@ package OOP;
 
 public class BankAccount {
     long bid = 12346589451654L;
-    int balance;
+    double balance;
     String owner;
 
     void insert(int amount){
