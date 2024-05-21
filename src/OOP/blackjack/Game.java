@@ -26,6 +26,7 @@ public class Game {
     }
     void start(){
         if (wantToPlay()){
+            player.handValue = 0;
             dealerValue = (int)(Math.random()* 11 + 10);
             bet = 2 * betAmount();
             System.out.println("Hra zacala a vyherni castka je " + bet);
