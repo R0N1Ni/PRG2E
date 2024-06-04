@@ -16,6 +16,15 @@ public class BankAccount {
         }
     }
 
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "bid=" + bid +
+                ", balance=" + balance +
+                ", owner='" + owner + '\'' +
+                '}';
+    }
+
     void transaction(int amount, BankAccount reciever){
         if (balance > amount){
             balance -= amount;
