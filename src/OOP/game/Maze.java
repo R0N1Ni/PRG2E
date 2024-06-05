@@ -1,11 +1,13 @@
-package OOP.Maze;
+package OOP.game;
+
+
 
 public class Maze {
     int[][] mazeArray;
     char wall, playerIcon, freeSpace, treasure,enemy, weapon;
-    Player player;
+    Character player;
 
-    public Maze(int[][] mazeArray, char wall, char playerIcon, char freeSpace, char treasure, char enemy, char weapon, Player player) {
+    public Maze(int[][] mazeArray, char wall, char playerIcon, char freeSpace, char treasure, char enemy, char weapon, Character player) {
         this.mazeArray = mazeArray;
         this.wall = wall;
         this.playerIcon = playerIcon;
@@ -56,6 +58,8 @@ public class Maze {
         return mazeArray[player.x][player.y] == 1;
     }
 
+    boolean hitEnemy(){return mazeArray[player.x][player.y] == 4;}
+
     public static void main(String[] args) {
         int[][] mazeArray = {
                 {1,1,1,1,1,1,1},
@@ -67,7 +71,7 @@ public class Maze {
 
         };
 
-        Player john = new Player("John", 4,1);
+        Character john = new Character("John", 40,100,20,4,1);
         Maze m = new Maze(mazeArray,'#','@',' ', '+','X','*', john);
         m.printMaze();
         m.game();
