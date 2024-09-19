@@ -35,13 +35,30 @@ public class Character {
             case "w": x--; break;
             case "s": x++; break;
             case "d": y++; break;
-            case "r": takeWeapon(Hand.RIGHT,null );  break;
-            case "l": takeWeapon(Hand.LEFT,null ); break;
             default:
                 System.out.println("Spatny input");
                 return "X";
         }
         return input;
+    }
+    void takeWeaponWithHand(Weapon weapon){
+        System.out.println("Vyber si ruku do ktere dat zbran (r = right / l = left)");
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        switch (input){
+            case "r": {
+                takeWeapon(Hand.RIGHT,weapon );
+                System.out.println("Vzal si zbran do prave ruky: " + weapon.toString());
+                break;
+            }
+            case "l": {
+                takeWeapon(Hand.LEFT,weapon );
+                System.out.println("Vzal si zbran do leve ruky: " + weapon.toString());
+                break;
+            }
+            default:
+                System.out.println("Spatny input");
+        }
     }
 
     public boolean takeWeapon (Hand hand, Weapon weapon){
